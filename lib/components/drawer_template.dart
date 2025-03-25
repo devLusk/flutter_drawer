@@ -32,10 +32,10 @@ class DrawerTemplate extends StatelessWidget {
 
           // About page item
           ListTile(
-            leading: Icon(Icons.info),
-            title: Text("ABOUT DRAWER", style: TextStyle(letterSpacing: 2)),
+            leading: Icon(Icons.plus_one),
+            title: Text("COUNTER PAGE", style: TextStyle(letterSpacing: 2)),
             onTap: () {
-              Navigator.pushNamed(context, 'aboutpage');
+              Navigator.pushNamed(context, 'counterpage');
             },
           ),
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_drawer/pages/about_page.dart';
 import 'package:flutter_drawer/pages/home_page.dart';
+import 'package:flutter_drawer/pages/counter_page.dart';
 import 'package:flutter_drawer/pages/settings_page.dart';
 
 void main() {
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
       routes: {
         'homepage': (context) => HomePage(),
-        'aboutpage': (context) => AboutPage(),
+        'counterpage': (context) => CounterPage(),
         'settingspage': (context) => SettingsPage(),
       },
     );
