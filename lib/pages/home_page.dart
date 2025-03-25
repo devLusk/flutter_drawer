@@ -34,8 +34,8 @@ class _HomePageState extends State<HomePage> {
                       _counter++;
                     });
                   },
-                  child: Text("+")
-                  ),
+                  child: Text("+"),
+                ),
                 SizedBox(width: 20),
                 ElevatedButton(
                   onPressed: () {
@@ -45,10 +45,10 @@ class _HomePageState extends State<HomePage> {
                       }
                     });
                   },
-                  child: Text("-")
-                  )
+                  child: Text("-"),
+                ),
               ],
-            )
+            ),
           ],
         ),
       ),

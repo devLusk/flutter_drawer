@@ -15,10 +15,7 @@ class DrawerTemplate extends StatelessWidget {
               children: [
                 Text(
                   "Welcome!",
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
               ],
             ),
@@ -27,12 +24,8 @@ class DrawerTemplate extends StatelessWidget {
           // Home page item
           ListTile(
             leading: Icon(Icons.home_filled),
-            title: Text(
-              "HOME",
-              style: TextStyle(letterSpacing: 2),
-            ),
+            title: Text("HOME", style: TextStyle(letterSpacing: 2)),
             onTap: () {
-              Navigator.pop(context);
               Navigator.pushNamed(context, 'homepage');
             },
           ),
@@ -40,12 +33,8 @@ class DrawerTemplate extends StatelessWidget {
           // About page item
           ListTile(
             leading: Icon(Icons.info),
-            title: Text(
-              "ABOUT DRAWER",
-              style: TextStyle(letterSpacing: 2),
-            ),
+            title: Text("ABOUT DRAWER", style: TextStyle(letterSpacing: 2)),
             onTap: () {
-              Navigator.pop(context);
               Navigator.pushNamed(context, 'aboutpage');
             },
           ),
@@ -53,12 +42,8 @@ class DrawerTemplate extends StatelessWidget {
           // Settings page item
           ListTile(
             leading: Icon(Icons.settings),
-            title: Text(
-              "SETTINGS",
-              style: TextStyle(letterSpacing: 2),
-            ),
+            title: Text("SETTINGS", style: TextStyle(letterSpacing: 2)),
             onTap: () {
-              Navigator.pop(context);
               Navigator.pushNamed(context, 'settingspage');
             },
           ),

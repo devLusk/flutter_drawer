@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       routes: {
         'homepage': (context) => HomePage(),
         'aboutpage': (context) => AboutPage(),
-        'settingspage': (context) => SettingsPage()
+        'settingspage': (context) => SettingsPage(),
       },
     );
   }
