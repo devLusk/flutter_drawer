@@ -33,7 +33,7 @@ class DrawerTemplate extends StatelessWidget {
             ),
             onTap: () {
               Navigator.pop(context);
-              // Navigate to Home page
+              Navigator.pushNamed(context, 'homepage');
             },
           ),
 
@@ -46,7 +46,7 @@ class DrawerTemplate extends StatelessWidget {
             ),
             onTap: () {
               Navigator.pop(context);
-              // Navigate to the About page
+              Navigator.pushNamed(context, 'aboutpage');
             },
           ),
 
@@ -59,7 +59,7 @@ class DrawerTemplate extends StatelessWidget {
             ),
             onTap: () {
               Navigator.pop(context);
-              // Navigate to the Settings page
+              Navigator.pushNamed(context, 'settingspage');
             },
           ),
         ],

@@ -40,7 +40,9 @@ class _HomePageState extends State<HomePage> {
                 ElevatedButton(
                   onPressed: () {
                     setState(() {
-                      _counter--;
+                      if (_counter > 0) {
+                        _counter--;
+                      }
                     });
                   },
                   child: Text("-")
